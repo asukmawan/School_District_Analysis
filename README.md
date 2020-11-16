@@ -1,11 +1,10 @@
 # School_District_Analysis
 ## Background
-	
-The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. 
-		
-## Purpose
-- Replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. 
-- Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
+
+A school board has asked that an analysis on their records of standardized math and reading test scores, as there has been evidence of academic dishonesty. One school in particular has suspected altered data and it has been asked that the ninth grade data be omitted from the results. 
+
+To be able to go through the large amounts of data, the Pandas library in conjunction with Jupyter Notebook was used to replace the 9th grade data for Thomas High School with NaNs to assess the impact on the results.
+
 
 ## Results
 - Top 5 and bottom 5 performing schools, based on the overall passing rate:
